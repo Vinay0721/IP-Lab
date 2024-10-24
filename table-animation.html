@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+table {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0%   {background-color:green; border: 5px solid brown; left:0px; top:0px;}
+  
+  50%  {background-color:yellow;border: 1px solid purple;left:200px; top:200px;}
+  
+  100% {left:0px; top:0px;border: 1px solid teal;}
+}
+</style>
+</head>
+<body>
+
+<h1>CSS Animation</h1>
+
+<table style="width:100%">
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+</table>
+
+<p><b>Note:</b> When an animation is finished, it goes back to its original style.</p>
+
+</body>
+</html>
+
+
