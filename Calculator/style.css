@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+body{
+    margin: auto;
+}
+.input{
+    margin-bottom: 0;
+}
+input{
+    height: 2em;
+}
+#mainDisplay, #subDisplay{
+    text-align: right;
+    background-color: #e0d9d9;
+    border: none;
+    margin-bottom: 0;
+}
+button:hover{
+    background-color: #d4caca;
+}
+button:active{
+    background-color: #ecdede;
+}
+.container{
+    width: 21%;
+    height:30%;
+    margin:auto;
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+}
+.buttons{
+    padding-top: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+}
+.row1, .row2, .row3, .row4{
+    padding-bottom: 0.5em;
+}
+button{
+    width: 2.8em;
+    height: 2.8em;
+    border: none;
+    border-radius: 50%;
+}

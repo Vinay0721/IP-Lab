@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table, th, td{
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 2px;
+    margin: auto;
+}
+tr:hover{
+    transform: scale(1.2);
+    transition-timing-function: linear;
+    background-color: teal;
+    color: white;
+    animation-name: example;
+    animation-duration: 3s;
+}
+
+@keyframes example {
+    100%{
+        transform: translate(100px, 20px);
+    }
+}

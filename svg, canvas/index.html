@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>svg, canvas</title>
+</head>
+<body>
+    <canvas id="canvas" width="200" height="100" style="border: 1px solid grey;"></canvas>
+
+    <script>
+
+        // To sketch a line on canvas
+        // var c = document.getElementById('canvas');
+        // var ctx = c.getContext('2d');
+
+        // ctx.moveTo(0, 0);
+        // ctx.lineTo(200, 100);
+        // ctx.stroke();
+
+
+        // To sketch a circle
+        // var c = document.getElementById('canvas');
+        // var ctx = c.getContext('2d');
+
+        // ctx.beginPath();
+        // ctx.arc(100, 50, 40, 0, 2*Math.PI);   //(x, y, radius, start, end)
+        // ctx.stroke();
+
+
+        // To sketch a semi circle (lower half)
+        // var c = document.getElementById('canvas');
+        // var ctx = c.getContext('2d');
+
+        // ctx.beginPath();
+        // ctx.arc(100, 50, 40, 0, Math.PI);
+        // ctx.stroke();
+        
+
+        // To sketch a semi circle (lower half)
+        // var c = document.getElementById('canvas');
+        // var ctx = c.getContext('2d');
+
+        // ctx.beginPath();
+        // ctx.arc(100, 50, 40, 0, Math.PI, true);   //(x, y, radius, start, end, direction [optional field])
+        // ctx.stroke();
+
+        // To display text
+        // var c = document.getElementById('canvas');
+        // var ctx = c.getContext('2d');
+
+        // ctx.font = "25px Arial";
+        // ctx.fillStyle = "green";
+        // ctx.fillText('Hello!', 70, 60);
+
+
+        // To sketch a rectangle
+        // var c = document.getElementById('canvas');
+        // var ctx = c.getContext('2d');
+
+        // ctx.rect(50, 15, 100, 75);
+        // ctx.stroke();
+
+
+        // To sketch a filled rectangle
+        var c = document.getElementById('canvas');
+        var ctx = c.getContext('2d');
+        ctx.fillStyle = 'teal';
+        ctx.fillRect(50, 12, 100, 75);
+        ctx.stroke();
+    </script>
+</body>
+</html>

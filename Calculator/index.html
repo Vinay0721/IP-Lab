@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Practice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="input">
+            <input type="text" disabled id="subDisplay">
+            <input type="text" id="mainDisplay">
+        </div>
+        <div class="buttons">
+            <div>
+                <button style="width: 100%; margin-bottom: 0.5em; border-radius: 50px;" onclick="clearDisplay()">AC</button>
+                <div class="row1">
+                    <button onclick="getValue('7')">7</button>
+                    <button onclick="getValue('8')">8</button>
+                    <button onclick="getValue('9')">9</button>
+                    <button onclick="getValue('/')">÷</button>
+                </div>
+                <div class="row2">
+
+                    <button onclick="getValue('4')">4</button>
+                    <button onclick="getValue('5')">5</button>
+                    <button onclick="getValue('6')">6</button>
+                    <button onclick="getValue('*')">x</button>
+                </div>
+                <div class="row3">
+
+                    <button onclick="getValue('1')">1</button>
+                    <button onclick="getValue('2')">2</button>
+                    <button onclick="getValue('3')">3</button>
+                    <button onclick="getValue('-')">-</button>
+                </div>
+                <div class="row4">
+                    <button onclick="backspace()">C</button>    
+                    <button onclick="getValue('0')">0</button>
+                    <button onclick="findAns()">=</button>
+                    <button onclick="getValue('+')">+</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
